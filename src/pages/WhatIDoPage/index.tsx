@@ -10,7 +10,7 @@ import Animate from "src/components/Animation";
 
 const INFO_CARDS = [
   {
-    context: SELECTED.webdesign,
+    context: SELECTED.pipeline,
     type: "PIPELINES CI/CD",
     number: "01",
     icon: <MdDesignServices className={styles.iconCard} />,
@@ -18,7 +18,7 @@ const INFO_CARDS = [
     text: "Criação de esteiras automatizadas usando tecnologia Jenkins e Azure Pipelines, aonde automatiza o deploy da aplicação, e notifica no email a realização do build.",
   },
   {
-    context: SELECTED.mobileDev,
+    context: SELECTED.cloud,
     type: "OBSERVABILIDADE",
     number: "02",
     icon: <MdMobileFriendly className={styles.iconCard} />,
@@ -26,7 +26,7 @@ const INFO_CARDS = [
     text: "Trabalhando com ferramentas como New Relic, Prometheus, Jaeger e Loki. Trabalhando para analisar métricas da infraestrutura e apicação.",
   },
   {
-    context: SELECTED.webDev,
+    context: SELECTED.container,
     type: "CONTAINERS",
     number: "03",
     icon: <MdWebAsset className={styles.iconCard} />,
@@ -34,7 +34,7 @@ const INFO_CARDS = [
     text: "Foco no desenvolvimento de alto desempenho e escalabilidade, entregando soluções web personalizadas para sua empresa.",
   },
   {
-    context: SELECTED.webDev,
+    context: SELECTED.cloud,
     type: "FERRAMENTAS AWS",
     number: "04",
     icon: <MdWebAsset className={styles.iconCard} />,
@@ -42,7 +42,7 @@ const INFO_CARDS = [
     text: "Conhecimento com: S3, Instancias EC2, Deploy com ElasticBeanstalk, Faznedo triggers com Lambda e NewRelic, Logs com CloudWatch",
   },
   {
-    context: SELECTED.webDev,
+    context: SELECTED.cloud,
     type: "FERRAMENTAS AZURE",
     number: "05",
     icon: <MdWebAsset className={styles.iconCard} />,
