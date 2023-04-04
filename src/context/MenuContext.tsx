@@ -6,9 +6,9 @@ import React, {
 } from "react";
 
 export enum SELECTED {
-  webdesign,
-  webDev,
-  mobileDev,
+  pipeline,
+  container,
+  cloud,
 }
 
 interface Props {
@@ -16,7 +16,7 @@ interface Props {
 }
 
 const DEFAULT_VALUE = {
-  projectSelected: SELECTED.webDev,
+  projectSelected: SELECTED.container,
   setProjectSelected: (value: SELECTED) => {},
 };
 

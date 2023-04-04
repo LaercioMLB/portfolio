@@ -37,7 +37,7 @@ function App() {
         <a
           className="link-header"
           target="_blank"
-          href="https://medium.com/@dion.biancha"
+          href="https://labub.medium.com/"
         >
           BLOG
         </a>
