@@ -43,7 +43,7 @@ function App() {
         </a>
         <LanguageSelection />
         <a className="link-header" href="#projects">
-          {t("PROJETOS")}
+          {t("TOOLS")}
         </a>
       </div>
       <div className="container">
