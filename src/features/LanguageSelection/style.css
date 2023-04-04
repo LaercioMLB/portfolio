@@ -1,0 +1,23 @@
+.flags-container {
+  display: flex;
+}
+
+.flag {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+  filter: grayscale(1);
+}
+
+.flag:hover {
+  filter: grayscale(0.5);
+}
+
+.selected {
+  filter: grayscale(0);
+}
+
+.selected:hover {
+  filter: grayscale(0);
+}
