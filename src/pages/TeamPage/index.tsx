@@ -1,7 +1,7 @@
 import { useState, useContext } from "react";
 import styles from "./styles.module.css";
 import { useTranslation } from "react-i18next";
-import { didi, riri, vivi } from "src/assets";
+import { didi, riri, vivi, doni, emilio } from "src/assets";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import Animate from "src/components/Animation";
@@ -16,14 +16,26 @@ const TEAM_LIST = [
   {
     img: vivi,
     name: "Vinicios Engelage",
-    work: "UI/UX Full Stack",
-    link: "https://www.viniengelage.com/en-US",
+    work: "UI/UX Software Engineering",
+    link: "https://www.viniengelage.com",
   },
   {
     img: riri,
     name: "Riad Younes",
-    work: "Full Stack",
+    work: "Software Engineering",
     link: "https://www.linkedin.com/in/riad-younes-6a5348187/",
+  },
+  {
+    img: doni,
+    name: "Donizeti Junior",
+    work: "Infra/Sec",
+    link: "https://www.linkedin.com/in/donizetijunior/",
+  },
+  {
+    img: emilio,
+    name: "Emílio Anastacio",
+    work: "Data Analyst/Sec",
+    link: "https://www.linkedin.com/in/emilio-anastacio/",
   },
 ];
 

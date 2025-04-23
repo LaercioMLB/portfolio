@@ -57,7 +57,7 @@ function WhatIDoPage() {
   return (
     <div className={styles.content}>
       <Animate.FadeIn>
-        <h2 className={styles.title}>{t("O que eu faço")}</h2>
+        <h2 className={styles.title}>{t("O que eu faço?")}</h2>
       </Animate.FadeIn>
 
       <div className={styles.cardArea}>

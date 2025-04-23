@@ -22,7 +22,7 @@ function AboutPage() {
         <h1>BUBIAK</h1>
       </Animate.FadeUp>
       <Animate.ScaleIn>
-        <h2>Cloud Architect | Devops | AWS | Azure | Newtorking</h2>
+        <h2>Cloud Architect | Devops | AWS | Newtorking | Security</h2>
       </Animate.ScaleIn>
       <div className={styles.socialLinks}>
         <Animate.FadeIn>

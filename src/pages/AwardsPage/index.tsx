@@ -5,16 +5,47 @@ import {
 } from "react-icons/io";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import { IconCard } from "src/assets";
+import { suporte, devops, cloudops, cloudarq, organizadin, professor } from "src/assets";
 import { useTranslation } from "react-i18next";
 
 const AWARDS_LIST = [
   {
-    year: "2023",
-    title: "Hackatour Cataratas",
-    logo: <img alt="icon" className={styles.iconCard} src={IconCard} />,
-    text: "O Hackatour Cataratas é um espaço incentivador para o surgimento de novas soluções para o turismo, uma maratona de criação e desenvolvimento para que ideias possam ser concretizadas em bons negócios.",
+    year: "2025",
+    title: "UNIAMERICA - Professor Universitário",
+    logo: <img alt="icon" className={styles.iconCard} src={professor} />,
+    text: "Realizando meu sonho de estar junto com a próxima geração de T.I aplicando minhas experiencias de operações em nuvem e DevOps, estando junto com a inovação.",
   },
+  {
+    year: "2024",
+    title: "Valloo - Especialista em operações de T.I",
+    logo: <img alt="icon" className={styles.iconCard} src={cloudops} />,
+    text: "Lidero toda a parte de ferramentas AWS desde segurança, redes, cotação, migrações e automações.",
+  },
+  {
+    year: "2024",
+    title: "FIXECRM - Arquiteto Cloud",
+    logo: <img alt="icon" className={styles.iconCard} src={cloudarq} />,
+    text: "Projeto com duração de 6 para uma migração de containers PM2 para uma infraestrutura estavel e escalável utilizando AWS ECS e migrando banco de dados, junto a isso automação de deploy CI/CD",
+  },
+  {
+    year: "2024",
+    title: "Organizadin - Arquiteto Cloud",
+    logo: <img alt="icon" className={styles.iconCard} src={organizadin} />,
+    text: "Projeto com duração 3 meses para criação de uma infraesturutra Cloud no ambiente Hostinger, tendo um ambiente de Desenvolvimento e produção para o produto, garantindo conformidade e escalabilidade.",
+  },
+  {
+    year: "2023",
+    title: "TreeID - Analista DevOps",
+    logo: <img alt="icon" className={styles.iconCard} src={devops} />,
+    text: "Consolidando minha experiência em CPDs físicos, indo para o mundo Cloud com foco na cultura DevOps utilizando recursos AWS migrando infraestrutura para containers ECS + Automação de pipelines CI/CD com Azure DevOps",
+  },
+  {
+    year: "2021",
+    title: "Suporte Técnico",
+    logo: <img alt="icon" className={styles.iconCard} src={suporte} />,
+    text: "Meu início, onde desenvolvi uma sólida base de conhecimento em servidores, redes e sistemas operacionais.",
+  },
+
 ];
 
 function AwardsPage() {
@@ -29,7 +60,7 @@ function AwardsPage() {
       <div className={styles.dashLine} />
       <div className={styles.content}>
         <div className={styles.navigation}>
-          <div className={styles.title}>{t("Conquistas")}</div>
+          <div className={styles.title}>{t("Experiências")}</div>
           <div>
             <IoIosArrowDropleftCircle
               onClick={() => clickButton("back")}
